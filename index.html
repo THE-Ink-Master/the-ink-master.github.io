@@ -1,5 +1,73 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://example.com/</title>
-<meta http-equiv="refresh" content="0; URL=https://the-ink-master.github.io/portfolio/">
-<link rel="canonical" href="https://the-ink-master.github.io/portfolio/">
+<html lang="en">
+
+<head>
+  <title>
+    Ink Master's Website
+  </title>
+  <link rel="stylesheet" href="./Assets/css/style.css">
+  <link rel="icon" href="./Images/icon.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
+
+<body onload="darkmodecheck()">
+  <div class="navbar">
+    <a onclick="window.location.href = 'index';" class="h1">
+      Home
+    </a>
+    <div class="verticalLine"></div>
+    <div class="dropdown">
+      <button class="dropbtn">☰</button>
+      <div class="dropdown-content">
+        <a onclick="window.location.href = 'portfo';" class="navButton">
+          Portfolio
+        </a>
+      </div>
+    </div>
+    <a onclick="window.location.href = 'portfo';" class="navButton">
+      Portfolio
+    </a>
+    <div class="verticalLine-dark"></div>
+    <a onclick="darkmode()">
+      Toggle dark mode
+    </a>
+  </div>
+  <p class="text">
+    Hello!
+  </p>
+  <p class="text">
+    My name is Ink Master aka Jack and this is my website!
+  </p>
+  <p class="text">
+    This is the home page, you can see information about me below and use the buttons above to have a look at my work!
+  </p>
+  <p class="text" style="color: orange;">
+    Mobile support is here!
+  </p>
+  <p class="text">
+    if you find any bugs or issues then please let me know on <a
+      href="https://github.com/THE-Ink-Master/the-ink-master.github.io/issues">Github</a>.
+  </p>
+  <p class="bigtext">
+    About me:
+  </p>
+  <p class="text">
+    I am a 16 year old student that goes to Lake Tuggeranong College.
+  </p>
+  <p class="text">
+    I like making things for fun, such as this website!
+  </p>
+  <p class="text">
+    I enjoy building things, such as computers and the <a onclick="window.location.href = 'portfomars';" style="color: blue;">1/4 scale Mars Rover</a> I am making.
+  </p>
+  <p class="text">
+    I know how to code in a lot of popluar coding languages, such as C++, Python, HTML, CSS and much more.
+  </p>
+  <script src="Assets/js/darkmode.js">
+  </script>
+  <script src="Assets/js/indexhtmlhider.js">
+  </script>
+</body>
+
+</html>
