@@ -105,7 +105,7 @@ body {
 
 .navbar a {
   /*color: white;*/
-  font-size: clamp(10%, 2.5vh, 75%);
+  font-size: clamp(1vh, 2.5vh, 75%);
   padding: 16px 10px;
   text-decoration: none;
 }
@@ -117,7 +117,7 @@ body {
 
 .navbar .home {
   color: white;
-  font-size: clamp(20%, 3vh, 24px);
+  font-size: clamp(1vh, 3vh, 24px);
   padding: 11px 15px;
   text-decoration: none;
 }
@@ -129,13 +129,13 @@ body {
 .text {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: clamp(20%, 3vh, 24px);
+  font-size: clamp(1vh, 3vh, 24px);
 }
 
 .bigtext {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: clamp(20%, 4vh, 35px);
+  font-size: clamp(1.5vh, 4vh, 35px);
 
 }
 
