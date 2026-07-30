@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Jack Kley's portfolio</title>
+  <link rel="stylesheet" href="../Assets/css/style.css" />
+  <link rel="icon" href="../Images/icon.png" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="UTF-8" />
+</head>
+
+<body onload="darkmodecheck()">
+  <div class="navbar">
+    <a onclick="window.location.href = '/'" class="h1"> Home </a>
+    <div class="verticalLine"></div>
+    <div class="dropdown">
+      <button class="dropbtn">☰</button>
+      <div class="dropdown-content">
+        <a onclick="window.location.href = './squiddles'" class="navButton">
+          Squiddles
+        </a>
+        <a onclick="window.location.href = './posters'" class="navButton">
+          Posters
+        </a>
+        <a onclick="window.location.href = './fred01'" class="navButton">
+          FRED-01 (Robot/Animatronic)
+        </a>
+        <a onclick="window.location.href = './mars rover'" class="navButton">
+          1/4 scale mars rover
+        </a>
+      </div>
+    </div>
+    <a onclick="window.location.href = './squiddles'" class="navButton">
+      Squiddles
+    </a>
+    <a onclick="window.location.href = './posters'" class="navButton">
+      Posters
+    </a>
+    <a onclick="window.location.href = './fred01'" class="navButton">
+      FRED-01 (Robot/Animatronic)
+    </a>
+    <a onclick="window.location.href = './mars rover'" class="navButton">
+      1/4 scale mars rover
+    </a>
+    <div class="verticalLine-dark"></div>
+    <a onclick="darkmode()"> Toggle dark mode </a>
+  </div>
+  <p class="text">Hello!</p>
+  <p class="text">Welcome to my portfolio!</p>
+  <p class="text">
+    This is the home page, click any one of the buttons above to have a look
+    at my work.
+  </p>
+  <p class="text">
+    <a onclick="window.location.href = '../'" style="color: Blue;">
+      Return to main website page
+    </a>
+  </p>
+  <script src="/Assets/js/goback.js"></script>
+  <script src="/Assets/js/darkmode.js"></script>
+  <script src="/Assets/js/indexhtmlhider.js"></script>
+</body>
+
+</html>
