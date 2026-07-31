@@ -1,2 +1,2 @@
 theme: jekyll-theme-cayman
-exclude: [README.md]
+exclude: [README.md, Base html.html]
