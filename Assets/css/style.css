@@ -22,7 +22,7 @@ body {
 }
 
 .dropdown-content {
-  background-color: #24242477;
+  background-color: #30303077;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   color: inherit;
   display: none;
@@ -76,7 +76,7 @@ body {
 
 .navbar {
   align-items: flex-start;
-  background-color: #24242477;
+  background-color: #30303077;
   border-radius: 10px;
   box-sizing: border-box;
   display: flex;
