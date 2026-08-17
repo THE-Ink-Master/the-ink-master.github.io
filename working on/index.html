@@ -1,54 +1,50 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <title>Ink Master's Website</title>
+    <link rel="stylesheet" href="/Assets/css/style.css" />
+    <link rel="icon" href="/Images/icon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-  <title>Ink Master's Website</title>
-  <link rel="stylesheet" href="/Assets/css/style.css">
-  <link rel="icon" href="/Images/icon.png">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta charset="UTF-8">
-</head>
-
-<body onload="darkmodecheck()">
-  <div class="navbar">
-    <a onclick="window.location.href = '/'" class="h1">
-      Home
-    </a>
-    <div class="verticalLine"></div>
-    <div class="dropdown">
-      <button class="dropbtn">☰</button>
-      <div class="dropdown-content">
-        <a onclick="window.location.href = '../about me'" class="navButton">
-          About me
-        </a>
-        <a onclick="window.location.href = '../portfolio'" class="navButton">
-          Portfolio
-        </a>
-        <a onclick="window.location.href = '../working on'" class="navButton">
-          Working on
-        </a>
+  <body onload="darkmodecheck()">
+    <div class="navbar">
+      <a onclick="window.location.href = '/'" class="h1"> Home </a>
+      <div class="verticalLine"></div>
+      <div class="dropdown">
+        <button class="dropbtn">☰</button>
+        <div class="dropdown-content">
+          <a onclick="window.location.href = '../about me'" class="navButton">
+            About me
+          </a>
+          <a onclick="window.location.href = '../portfolio'" class="navButton">
+            Portfolio
+          </a>
+          <a onclick="window.location.href = '../working on'" class="navButton">
+            Working on
+          </a>
+        </div>
       </div>
+      <a onclick="window.location.href = '../about me'" class="navButton">
+        About me
+      </a>
+      <a onclick="window.location.href = '../portfolio'" class="navButton">
+        Portfolio
+      </a>
+      <a onclick="window.location.href = '../working on'" class="navButton">
+        Working on
+      </a>
+      <div class="verticalLine-dark"></div>
+      <a onclick="darkmode()"> Toggle dark mode </a>
     </div>
-    <a onclick="window.location.href = '../about me'" class="navButton">
-      About me
-    </a>
-    <a onclick="window.location.href = '../portfolio'" class="navButton">
-      Portfolio
-    </a>
-    <a onclick="window.location.href = '../working on'" class="navButton">
-      Working on
-    </a>
-    <div class="verticalLine-dark"></div>
-    <a onclick="darkmode()"> Toggle dark mode </a>
-  </div>
-  <p class="text">Currently, I am working on:</p>
-  <p class="text">School work</p>
-  <p class="text">1/4 scale Mars Rover</p>
-  <p class="text">Minecraft Create Mod add-on</p>
-  <p class="text">Chrome extensions</p>
-  <p class="text">And much more!</p>
-  <script src="/Assets/js/darkmode.js"></script>
-  <script src="/Assets/js/indexhtmlhider.js"></script>
-</body>
-
+    <p class="text">Currently, I am working on:</p>
+    <p class="text">School work</p>
+    <p class="text">1/4 scale Mars Rover</p>
+    <p class="text">Minecraft Create Mod add-on</p>
+    <p class="text">Chrome extensions</p>
+    <p class="text">And much more!</p>
+    <script src="/Assets/js/darkmode.js"></script>
+    <script src="/Assets/js/indexhtmlhider.js"></script>
+  </body>
 </html>
