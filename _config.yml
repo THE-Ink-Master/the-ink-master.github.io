@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 exclude: [README.md, template.html]
+
+permalink: /404.html
