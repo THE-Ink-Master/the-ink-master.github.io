@@ -54,4 +54,4 @@ User-agent: *
 Allow: /
 Crawl-delay: 60
 
-Sitemap: https://https://the-ink-master.github.io/sitemap.xml
+Sitemap: https://the-ink-master.github.io/sitemap.xml
