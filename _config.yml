@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 exclude: [README.md, template.html]
 permalink: /404.html
+timezone: Australia/Sydney
 url: "https://the-ink-master.github.io"
 plugins:
   - jekyll-sitemap
