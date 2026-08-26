@@ -47,7 +47,11 @@ Disallow: /
 User-agent: meta-externalagent
 Disallow: /
 
+User-agent: Twitterbot
+Disallow: /
+
 User-agent: *
 Allow: /
+Crawl-delay: 60
 
 Sitemap: https://www.crawlstop.com/sitemap.xml

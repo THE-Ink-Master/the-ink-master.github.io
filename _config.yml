@@ -1,4 +1,17 @@
 theme: jekyll-theme-cayman
 exclude: [README.md, template.html]
-
 permalink: /404.html
+url "https://the-ink-master.github.io"
+plugins:
+  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path:            "README.md"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "template.html"
+    values:
+      sitemap:         false
